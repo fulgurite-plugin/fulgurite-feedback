@@ -1,0 +1,27 @@
+name: Crash report / 충돌 신고
+description: Fulgurite quit unexpectedly. The app fills this in after a crash. / Fulgurite가 예기치 않게 종료됐어요. 충돌 뒤 앱이 채워 줍니다.
+labels: [crash]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What were you doing? / 무엇을 하고 있었나요?
+      description: Even a rough idea helps. / 대략이라도 도움이 됩니다.
+  - type: textarea
+    id: report
+    attributes:
+      label: Crash details / 충돌 내용
+      description: Filled in by the app. On a Mac, Finder shows the full log (.ips) too; drag it here if you can. / 앱이 채웁니다. Mac에서는 Finder에 전체 로그(.ips)도 열리니, 여기에 끌어다 놓아 주세요.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version / 앱 버전
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System / 시스템

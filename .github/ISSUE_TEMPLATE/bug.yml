@@ -1,0 +1,26 @@
+name: Bug report / 버그 신고
+description: Something doesn't work as it should. / 뭔가 제대로 동작하지 않아요.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 무슨 일이 있었나요?
+      description: What you did, what you expected, what you got. Screenshots help. / 무엇을 했고, 무엇을 기대했고, 무엇이 일어났는지. 스크린샷이 있으면 좋아요.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 다시 일으키는 방법
+      placeholder: "1. …\n2. …"
+  - type: input
+    id: version
+    attributes:
+      label: App version / 앱 버전
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System / 시스템

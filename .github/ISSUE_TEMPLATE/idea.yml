@@ -1,0 +1,19 @@
+name: Feature idea / 기능 제안
+description: Something Fulgurite should do. / Fulgurite가 했으면 하는 것.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea / 아이디어
+      description: What you want to do, and how you do it today (or in another app). / 하고 싶은 일, 그리고 지금(또는 다른 앱에서)은 어떻게 하는지.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version / 앱 버전
+  - type: input
+    id: system
+    attributes:
+      label: System / 시스템

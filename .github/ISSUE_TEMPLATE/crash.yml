@@ -1,5 +1,5 @@
 name: Crash report / 충돌 신고
-description: Fulgurite quit unexpectedly. The app fills this in after a crash. / Fulgurite가 예기치 않게 종료됐어요. 충돌 뒤 앱이 채워 줍니다.
+description: fulgurite quit unexpectedly. The app fills this in after a crash. / fulgurite가 예기치 않게 종료됐어요. 충돌 뒤 앱이 채워 줍니다.
 labels: [crash]
 body:
   - type: textarea

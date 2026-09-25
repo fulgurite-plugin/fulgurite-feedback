@@ -1,5 +1,5 @@
 name: Feature idea / 기능 제안
-description: Something Fulgurite should do. / Fulgurite가 했으면 하는 것.
+description: Something fulgurite should do. / fulgurite가 했으면 하는 것.
 labels: [enhancement]
 body:
   - type: textarea
